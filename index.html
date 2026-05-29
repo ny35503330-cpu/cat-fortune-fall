@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>空から猫みくじ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app" aria-labelledby="app-title">
+      <section class="sky" aria-live="polite">
+        <div class="cloud cloud-left"></div>
+        <div class="cloud cloud-right"></div>
+
+        <div class="intro">
+          <p class="eyebrow">きょうの運勢</p>
+          <h1 id="app-title">空から猫みくじ</h1>
+          <p class="lead">ボタンを押すと、運勢の札を持った猫が落ちてきます。</p>
+        </div>
+
+        <div class="stage" id="stage">
+          <div class="empty-state" id="emptyState">まだ猫は空の上です</div>
+        </div>
+
+        <button class="draw-button" id="drawButton" type="button">
+          猫を呼ぶ
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
