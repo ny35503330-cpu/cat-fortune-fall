@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codexエージェント橋渡し"
+  short_description: "Claude式YAMLフロントマターをCodexでもエージェンティックに動かすための橋渡しスキル"
+  default_prompt: "Claude Code仕様のスキルやサブエージェント設計を、Codexでも効く形に読み替えて実行してください"

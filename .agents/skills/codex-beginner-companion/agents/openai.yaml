@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex初心者伴走"
+  short_description: "初心者にやさしく説明しながら、Codexができる開発作業を代行する伴走スキル"
+  default_prompt: "初心者にもわかる言葉で説明しながら、Codexができる作業は代わりに進めてください"
